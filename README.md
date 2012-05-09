@@ -1,4 +1,4 @@
 geohash-iOS
 ===========
 
-Implementation of GeoHashes in Objective-C
+Implementation of GeoHashes in Objective-C.
