@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64031F7D15CF58D100BCF686 /* GNBoundingBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 64031F7815CF58D100BCF686 /* GNBoundingBox.m */; };
+		64031F7E15CF58D100BCF686 /* GNGeoHash.m in Sources */ = {isa = PBXBuildFile; fileRef = 64031F7A15CF58D100BCF686 /* GNGeoHash.m */; };
+		64031F7F15CF58D100BCF686 /* GNWGS84Point.m in Sources */ = {isa = PBXBuildFile; fileRef = 64031F7C15CF58D100BCF686 /* GNWGS84Point.m */; };
+		64031F8215CF590400BCF686 /* GNMapAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 64031F8115CF590400BCF686 /* GNMapAnnotation.m */; };
+		64031F8415CF59B600BCF686 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64031F8315CF59B600BCF686 /* MapKit.framework */; };
+		64031F8615CF59CA00BCF686 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64031F8515CF59CA00BCF686 /* CoreLocation.framework */; };
+		64E4D5AE15CF57950081D6E3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64E4D5AD15CF57950081D6E3 /* UIKit.framework */; };
+		64E4D5B015CF57950081D6E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64E4D5AF15CF57950081D6E3 /* Foundation.framework */; };
+		64E4D5B215CF57950081D6E3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64E4D5B115CF57950081D6E3 /* CoreGraphics.framework */; };
+		64E4D5B815CF57950081D6E3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 64E4D5B615CF57950081D6E3 /* InfoPlist.strings */; };
+		64E4D5BA15CF57950081D6E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E4D5B915CF57950081D6E3 /* main.m */; };
+		64E4D5BE15CF57950081D6E3 /* GNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E4D5BD15CF57950081D6E3 /* GNAppDelegate.m */; };
+		64E4D5C115CF57950081D6E3 /* GNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E4D5C015CF57950081D6E3 /* GNViewController.m */; };
+		64E4D5C415CF57950081D6E3 /* GNViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64E4D5C215CF57950081D6E3 /* GNViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		64031F7715CF58D100BCF686 /* GNBoundingBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GNBoundingBox.h; path = ../../GNBoundingBox.h; sourceTree = "<group>"; };
+		64031F7815CF58D100BCF686 /* GNBoundingBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GNBoundingBox.m; path = ../../GNBoundingBox.m; sourceTree = "<group>"; };
+		64031F7915CF58D100BCF686 /* GNGeoHash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GNGeoHash.h; path = ../../GNGeoHash.h; sourceTree = "<group>"; };
+		64031F7A15CF58D100BCF686 /* GNGeoHash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GNGeoHash.m; path = ../../GNGeoHash.m; sourceTree = "<group>"; };
+		64031F7B15CF58D100BCF686 /* GNWGS84Point.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GNWGS84Point.h; path = ../../GNWGS84Point.h; sourceTree = "<group>"; };
+		64031F7C15CF58D100BCF686 /* GNWGS84Point.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GNWGS84Point.m; path = ../../GNWGS84Point.m; sourceTree = "<group>"; };
+		64031F8015CF590400BCF686 /* GNMapAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GNMapAnnotation.h; sourceTree = "<group>"; };
+		64031F8115CF590400BCF686 /* GNMapAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GNMapAnnotation.m; sourceTree = "<group>"; };
+		64031F8315CF59B600BCF686 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		64031F8515CF59CA00BCF686 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		64E4D5A915CF57950081D6E3 /* GeoHash-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GeoHash-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64E4D5AD15CF57950081D6E3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		64E4D5AF15CF57950081D6E3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		64E4D5B115CF57950081D6E3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		64E4D5B515CF57950081D6E3 /* GeoHash-iOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GeoHash-iOS-Info.plist"; sourceTree = "<group>"; };
+		64E4D5B715CF57950081D6E3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		64E4D5B915CF57950081D6E3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		64E4D5BB15CF57950081D6E3 /* GeoHash-iOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GeoHash-iOS-Prefix.pch"; sourceTree = "<group>"; };
+		64E4D5BC15CF57950081D6E3 /* GNAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GNAppDelegate.h; sourceTree = "<group>"; };
+		64E4D5BD15CF57950081D6E3 /* GNAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GNAppDelegate.m; sourceTree = "<group>"; };
+		64E4D5BF15CF57950081D6E3 /* GNViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GNViewController.h; sourceTree = "<group>"; };
+		64E4D5C015CF57950081D6E3 /* GNViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GNViewController.m; sourceTree = "<group>"; };
+		64E4D5C315CF57950081D6E3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/GNViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64E4D5A615CF57950081D6E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64031F8615CF59CA00BCF686 /* CoreLocation.framework in Frameworks */,
+				64031F8415CF59B600BCF686 /* MapKit.framework in Frameworks */,
+				64E4D5AE15CF57950081D6E3 /* UIKit.framework in Frameworks */,
+				64E4D5B015CF57950081D6E3 /* Foundation.framework in Frameworks */,
+				64E4D5B215CF57950081D6E3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64031F7515CF58B500BCF686 /* port */ = {
+			isa = PBXGroup;
+			children = (
+				64031F7715CF58D100BCF686 /* GNBoundingBox.h */,
+				64031F7815CF58D100BCF686 /* GNBoundingBox.m */,
+				64031F7915CF58D100BCF686 /* GNGeoHash.h */,
+				64031F7A15CF58D100BCF686 /* GNGeoHash.m */,
+				64031F7B15CF58D100BCF686 /* GNWGS84Point.h */,
+				64031F7C15CF58D100BCF686 /* GNWGS84Point.m */,
+			);
+			name = port;
+			sourceTree = "<group>";
+		};
+		64E4D59E15CF57950081D6E3 = {
+			isa = PBXGroup;
+			children = (
+				64E4D5B315CF57950081D6E3 /* GeoHash-iOS */,
+				64E4D5AC15CF57950081D6E3 /* Frameworks */,
+				64E4D5AA15CF57950081D6E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		64E4D5AA15CF57950081D6E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64E4D5A915CF57950081D6E3 /* GeoHash-iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64E4D5AC15CF57950081D6E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64031F8515CF59CA00BCF686 /* CoreLocation.framework */,
+				64031F8315CF59B600BCF686 /* MapKit.framework */,
+				64E4D5AD15CF57950081D6E3 /* UIKit.framework */,
+				64E4D5AF15CF57950081D6E3 /* Foundation.framework */,
+				64E4D5B115CF57950081D6E3 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		64E4D5B315CF57950081D6E3 /* GeoHash-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				64031F7515CF58B500BCF686 /* port */,
+				64E4D5BC15CF57950081D6E3 /* GNAppDelegate.h */,
+				64E4D5BD15CF57950081D6E3 /* GNAppDelegate.m */,
+				64E4D5BF15CF57950081D6E3 /* GNViewController.h */,
+				64E4D5C015CF57950081D6E3 /* GNViewController.m */,
+				64031F8015CF590400BCF686 /* GNMapAnnotation.h */,
+				64031F8115CF590400BCF686 /* GNMapAnnotation.m */,
+				64E4D5C215CF57950081D6E3 /* GNViewController.xib */,
+				64E4D5B415CF57950081D6E3 /* Supporting Files */,
+			);
+			path = "GeoHash-iOS";
+			sourceTree = "<group>";
+		};
+		64E4D5B415CF57950081D6E3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				64E4D5B515CF57950081D6E3 /* GeoHash-iOS-Info.plist */,
+				64E4D5B615CF57950081D6E3 /* InfoPlist.strings */,
+				64E4D5B915CF57950081D6E3 /* main.m */,
+				64E4D5BB15CF57950081D6E3 /* GeoHash-iOS-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64E4D5A815CF57950081D6E3 /* GeoHash-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64E4D5C715CF57950081D6E3 /* Build configuration list for PBXNativeTarget "GeoHash-iOS" */;
+			buildPhases = (
+				64E4D5A515CF57950081D6E3 /* Sources */,
+				64E4D5A615CF57950081D6E3 /* Frameworks */,
+				64E4D5A715CF57950081D6E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GeoHash-iOS";
+			productName = "GeoHash-iOS";
+			productReference = 64E4D5A915CF57950081D6E3 /* GeoHash-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64E4D5A015CF57950081D6E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GN;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "GNS Science";
+			};
+			buildConfigurationList = 64E4D5A315CF57950081D6E3 /* Build configuration list for PBXProject "GeoHash-iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 64E4D59E15CF57950081D6E3;
+			productRefGroup = 64E4D5AA15CF57950081D6E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64E4D5A815CF57950081D6E3 /* GeoHash-iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64E4D5A715CF57950081D6E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64E4D5B815CF57950081D6E3 /* InfoPlist.strings in Resources */,
+				64E4D5C415CF57950081D6E3 /* GNViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64E4D5A515CF57950081D6E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64E4D5BA15CF57950081D6E3 /* main.m in Sources */,
+				64E4D5BE15CF57950081D6E3 /* GNAppDelegate.m in Sources */,
+				64E4D5C115CF57950081D6E3 /* GNViewController.m in Sources */,
+				64031F7D15CF58D100BCF686 /* GNBoundingBox.m in Sources */,
+				64031F7E15CF58D100BCF686 /* GNGeoHash.m in Sources */,
+				64031F7F15CF58D100BCF686 /* GNWGS84Point.m in Sources */,
+				64031F8215CF590400BCF686 /* GNMapAnnotation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		64E4D5B615CF57950081D6E3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64E4D5B715CF57950081D6E3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		64E4D5C215CF57950081D6E3 /* GNViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64E4D5C315CF57950081D6E3 /* en */,
+			);
+			name = GNViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		64E4D5C515CF57950081D6E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		64E4D5C615CF57950081D6E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		64E4D5C815CF57950081D6E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GeoHash-iOS/GeoHash-iOS-Prefix.pch";
+				INFOPLIST_FILE = "GeoHash-iOS/GeoHash-iOS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		64E4D5C915CF57950081D6E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GeoHash-iOS/GeoHash-iOS-Prefix.pch";
+				INFOPLIST_FILE = "GeoHash-iOS/GeoHash-iOS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64E4D5A315CF57950081D6E3 /* Build configuration list for PBXProject "GeoHash-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64E4D5C515CF57950081D6E3 /* Debug */,
+				64E4D5C615CF57950081D6E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64E4D5C715CF57950081D6E3 /* Build configuration list for PBXNativeTarget "GeoHash-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64E4D5C815CF57950081D6E3 /* Debug */,
+				64E4D5C915CF57950081D6E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64E4D5A015CF57950081D6E3 /* Project object */;
+}
