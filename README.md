@@ -24,7 +24,10 @@ At [GNS Science](http://www.geonet.org.nz/) the idea is used to identify whether
 
 ## Usage
 
+### Structure
 The main-method is to be found in the supporting files folder in the file main.m. The test method is testGeoHashes in the GNViewController class.
+
+The GitHub page now has the 3 main classes for everyone interested in using GeoHashes in their iOS project to use right on the main page. In the 'demo' subdirectory is a complete XCode project that uses the 3 main classes and implements a little demo - on the iPhone or iPod Touch a map is shown with a Pin on it - the Pin shows the location on the map (lat,lon), as well as the corresponding GeoHash. We calculate the GeoHash by default to 12 characters and display the area that corresponds to 2 characters accuracy (otherwise it's too small) as a shaded rectangle under the pin.
 
 ### Calculate a GeoHash from a given numerical latitude/longitude representation of a point
 

@@ -5,6 +5,19 @@
 //  Created by AppTastic Technologies (www.apptastic.com.au) for GNS Science
 //  Copyright (c) 2012 GNS Science. All rights reserved.
 //
+//  This program is free software: you can redistribute it and/or modify
+//  it under the terms of the GNU General Public License as published by
+//  the Free Software Foundation, either version 3 of the License, or
+//  (at your option) any later version.
+//
+//  This program is distributed in the hope that it will be useful,
+//  but WITHOUT ANY WARRANTY; without even the implied warranty of
+//  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+//  GNU General Public License for more details.
+//
+//  You should have received a copy of the GNU General Public License
+//  along with this program. If not, see <http://www.gnu.org/licenses/>.
+//
 
 #import "GNViewController.h"
 #import "GNGeoHash.h"
@@ -32,22 +45,9 @@
     int pointPrecision = 12; //to obtain hash according to http://geohash.org
     int areaPrecision = 2; //to draw larger area according to precision
     
-    GNMapAnnotation *theAnnotation = [[GNMapAnnotation alloc]initWithPrecision:pointPrecision];
+    GNMapAnnotation *theAnnotation = [[GNMapAnnotation alloc]initWithPointPrecision:pointPrecision andAreaPrecision:areaPrecision andMapView:self.demoMap];
+    
     [theAnnotation setCoordinate:ctrpoint];
-
-    GNGeoHash *gh = [GNGeoHash withCharacterPrecision:theAnnotation.coordinate.latitude andLongitude:theAnnotation.coordinate.longitude andNumberOfCharacters:areaPrecision];
-    
-    CLLocationCoordinate2D  points[4];
-
-    points[0] = CLLocationCoordinate2DMake(gh.boundingBox.minLat, gh.boundingBox.minLon);
-    points[1] = CLLocationCoordinate2DMake(gh.boundingBox.minLat, gh.boundingBox.maxLon);
-    points[2] = CLLocationCoordinate2DMake(gh.boundingBox.maxLat, gh.boundingBox.maxLon);
-    points[3] = CLLocationCoordinate2DMake(gh.boundingBox.maxLat, gh.boundingBox.minLon);
-    
-    MKPolygon* poly = [MKPolygon polygonWithCoordinates:points count:4];
-    poly.title = @"Area";
-    
-    [self.demoMap addOverlay:poly];
     
     [self.demoMap addAnnotation:theAnnotation];    
     [self.demoMap setRegion:MKCoordinateRegionMake(ctrpoint, MKCoordinateSpanMake(10, 10)) animated:YES];
